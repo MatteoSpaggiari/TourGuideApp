@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">City of Mantua</string>
+    <string name="nav_header_subtitle">Italia</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu Items -->
+    <string name="menu_home">Home</string>
+    <string name="menu_palaces">Palaces</string>
+    <string name="menu_churches">Churches</string>
+    <string name="menu_theaters">Theaters</string>
+    <string name="menu_squares">Squares</string>
+
+    <!-- Short history of Mantua in Home Screen -->
+    <string name="text_home">Mantua is a city and comune in Lombardy, Italy, and capital of the province of the same name.<br></br>
+        Mantua is surrounded on three sides by artificial lakes, created during the 12th century as the city\'s defence system. These lakes receive water from the Mincio River, a tributary of the Po River which descends from Lake Garda. The three lakes are called Lago Superiore, Lago di Mezzo, and Lago Inferiore ("Upper", "Middle", and "Lower" Lakes, respectively). A fourth lake, Lake Pajolo, which once served as a defensive water ring around the city, dried up at the end of the 18th century.<br></br>
+        The area and its environs are important not only in naturalistic terms, but also anthropologically and historically; research has highlighted a number of human settlements scattered between Barche di Solferino and Bande di Cavriana, Castellaro and Isolone del Mincio. These dated, without interruption, from Neolithic times (5th–4th millennium BC) to the Bronze Age (2nd–1st millennium BC) and the Gallic phases (2nd–1st centuries BC), and ended with Roman residential settlements, which could be traced to the 3rd century AD.<br></br>
+        In 2017, Legambiente ranked Mantua as the best Italian city for the quality of the life and environment.<br></br>
+        The Gonzagas protected the arts and culture, and were hosts to several important artists such as Leone Battista Alberti, Andrea Mantegna, Giulio Romano, Donatello, Peter Paul Rubens, Pisanello, Domenico Fetti, Luca Fancelli and Nicolò Sebregondi. Though many of the masterworks have been dispersed, the cultural value of Mantua is nonetheless outstanding, with many of Mantua\'s patrician and ecclesiastical buildings being uniquely important examples of Italian architecture.<br></br>
+        Main landmarks include: The Palazzo Te, The Palazzo Ducale, The Basilica of Sant\'Andrea, The Duomo, The Rotonda of San Lorenzo, The Bibiena Theater and many others.
+    </string>
+
+    <!-- No phone number -->
+    <string name="no_phone" translatable="false">Telephone number not available</string>
+
+    <!-- Palaces -->
+    <string name="palace_te_name">Palace Te</string>
+    <string name="palace_ducale_name">Palace Ducale</string>
+    <string name="palace_bonacolsi_name">Palace Castiglioni</string>
+    <string name="palace_ragione_name">Palace of the Ragione</string>
+    <string name="palace_te_website" translatable="false">http://www.palazzote.it/</string>
+    <string name="palace_ducale_website" translatable="false">http://www.mantovaducale.beniculturali.it/</string>
+    <string name="palace_bonacolsi_website" translatable="false">http://www.turismo.mantova.it/index.php/risorse/scheda/id/1109</string>
+    <string name="palace_ragione_website" translatable="false">http://www.comune.mantova.gov.it/index.php/cultura/musei-e-monumenti/palazzo-della-ragione</string>
+    <string name="palace_te_phone" translatable="false">tel:+390376367087</string>
+    <string name="palace_ducale_phone" translatable="false">tel:+390376224832</string>
+    <string name="palace_bonacolsi_phone" translatable="false">tel:+390376367032</string>
+    <string name="palace_ragione_phone" translatable="false">tel:+390376288208</string>
+    <string name="palace_te_position" translatable="false">geo:45.1475198,10.7844041</string>
+    <string name="palace_ducale_position" translatable="false">geo:45.1602832,10.7966159</string>
+    <string name="palace_bonacolsi_position" translatable="false">geo:45.1599832,10.7959409</string>
+    <string name="palace_ragione_position" translatable="false">geo:45.1583645,10.7952071</string>
+
+    <!-- Churches -->
+    <string name="basilica_san_andrea_name">Basilica of S. Andrea</string>
+    <string name="church_san_sebastiano_name">Church of S. Sebastiano</string>
+    <string name="basilica_san_pietro_name">Basilica of S. Pietro</string>
+    <string name="rotunda_san_lorenzo_name">Rotunda of S. Lorenzo</string>
+    <string name="basilica_san_andrea_website" translatable="false">https://www.mantova.com/basilica-di-sant-andrea/</string>
+    <string name="church_san_sebastiano_website" translatable="false">https://www.comune.mantova.gov.it/index.php/cultura/musei-e-monumenti/tempio-di-san-sebastiano</string>
+    <string name="basilica_san_pietro_website" translatable="false">https://www.mantova.com/duomo-o-basilica-di-san-pietro/</string>
+    <string name="rotunda_san_lorenzo_website" translatable="false">https://www.comune.mantova.gov.it/index.php/cultura/altri-monumenti/rotonda-di-san-lorenzo</string>
+    <string name="basilica_san_andrea_phone" translatable="false">tel:+390376328504</string>
+    <string name="church_san_sebastiano_phone" translatable="false">tel:+390376288208</string>
+    <string name="basilica_san_pietro_phone" translatable="false">tel:+390376320220</string>
+    <string name="rotunda_san_lorenzo_phone" translatable="false">tel:+390376322297</string>
+    <string name="basilica_san_andrea_position" translatable="false">geo:45.1588911,10.7921992</string>
+    <string name="church_san_sebastiano_position" translatable="false">geo:45.1509406,10.7860053</string>
+    <string name="basilica_san_pietro_position" translatable="false">geo:45.1608477,10.7953844</string>
+    <string name="rotunda_san_lorenzo_position" translatable="false">geo:45.1580759,10.7925908</string>
+
+    <!-- Theaters -->
+    <string name="theater_bibiena_name">Theater Bibiena</string>
+    <string name="theater_sociale_name">Theater Sociale</string>
+    <string name="theater_bibiena_website" translatable="false">https://www.comune.mantova.gov.it/index.php/cultura/musei-e-monumenti/teatro-scientifico-bibiena</string>
+    <string name="theater_sociale_website" translatable="false">https://www.teatrosocialemantova.it/</string>
+    <string name="theater_bibiena_phone" translatable="false">tel:+390376327653</string>
+    <string name="theater_sociale_phone" translatable="false">tel:+3903761974836</string>
+    <string name="theater_bibiena_position" translatable="false">geo:45.1579211,10.7959359</string>
+    <string name="theater_sociale_position" translatable="false">geo:45.1578307,10.7878121</string>
+
+    <!-- Squares -->
+    <string name="square_virgiliana_name">Square Virgiliana</string>
+    <string name="square_sordello_name">Square Sordello</string>
+    <string name="square_broletto_name">Square Broletto</string>
+    <string name="square_virgiliana_website" translatable="false">https://www.mantovanotizie.com/guida-mantova/piazza-virgiliana</string>
+    <string name="square_sordello_website" translatable="false">https://www.mantovanotizie.com/guida-mantova/piazza-sordello</string>
+    <string name="square_broletto_website" translatable="false">https://www.touringclub.it/destinazione/localita/urbanistica/137239/piazza-broletto-mantova</string>
+    <string name="square_virgiliana_phone" translatable="false"></string>
+    <string name="square_sordello_phone" translatable="false"></string>
+    <string name="square_broletto_phone" translatable="false"></string>
+    <string name="square_virgiliana_position" translatable="false">geo:45.1624127,10.793439</string>
+    <string name="square_sordello_position" translatable="false">geo:45.1602508,10.7954089</string>
+    <string name="square_broletto_position" translatable="false">geo:45.1589435,10.7933361</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#01579B</color>
+    <color name="colorAccent">#00B0FF</color>
+    <color name="textColorNavBarMain">#FFF</color>
+    <color name="backgroundTitleNavBarMain">#BB000000</color>
+    <color name="colorTextTitleCardView">#03A9F4</color>
+    <color name="colorIconCardView">#FF03A9F4</color>
+</resources>

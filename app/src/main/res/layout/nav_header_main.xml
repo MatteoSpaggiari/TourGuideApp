@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    style="@style/NavHeaderMain">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:contentDescription="@string/nav_header_desc"
+        android:src="@drawable/mantova"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/NavHeaderMain.ImageBackground" />
+
+    <TextView
+        android:id="@+id/title_nav_header_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="@string/nav_header_title"
+        style="@style/NavHeaderMain.Title" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

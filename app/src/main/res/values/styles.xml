@@ -1,0 +1,108 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Style for Nav Bar Main Layout -->
+    <style name="NavHeaderMain" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/nav_header_height</item>
+    </style>
+
+    <!-- Style for Image Background Nav Bar Main -->
+    <style name="NavHeaderMain.ImageBackground">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style for Title and Subtitle Nav Bar Main -->
+    <style name="NavHeaderMain.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/standard_padding_min</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/textColorNavBarMain</item>
+        <item name="android:background">@color/backgroundTitleNavBarMain</item>
+    </style>
+
+    <!-- Style for FragmentHome Layout -->
+    <style name="FragmentHome">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Style for Image FragmentHome Layout -->
+    <style name="FragmentHome.ImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_image_fragment_home</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style for TextView FragmentHome Layout -->
+    <style name="FragmentHome.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/standard_padding</item>
+        <item name="android:textSize">@dimen/text_size_standard</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <!-- Style for CardView Layout -->
+    <style name="CardViewLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/standard_margin</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- Style for ConstraintLayout of CardView Layout -->
+    <style name="CardViewLayout.Constraint">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/no_padding</item>
+        <item name="android:layout_margin">@dimen/no_margin</item>
+    </style>
+
+    <!-- Style for Icon ImageView of the CardView Layout -->
+    <style name="CardViewLayout.ImageView.Icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/standard_padding_min</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+    </style>
+
+    <!-- Style for ImageView of the CardView Layout -->
+    <style name="CardViewLayout.ImageView">
+        <item name="android:layout_width">@dimen/width_image_cardview</item>
+        <item name="android:layout_height">@dimen/height_image_cardview</item>
+    </style>
+
+    <!-- Style for TextView Title of the CardView Layout -->
+    <style name="CardViewLayout.TextViewTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/standard_padding_min</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorTextTitleCardView</item>
+    </style>
+
+</resources>

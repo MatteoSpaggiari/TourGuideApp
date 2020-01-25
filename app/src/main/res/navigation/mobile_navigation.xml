@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="it.matteospaggiari.tourguideapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_palaces"
+        android:name="it.matteospaggiari.tourguideapp.ui.palaces.PalacesFragment"
+        android:label="@string/menu_palaces"
+        tools:layout="@layout/fragment_cardview" />
+
+    <fragment
+        android:id="@+id/nav_churches"
+        android:name="it.matteospaggiari.tourguideapp.ui.churches.ChurchesFragment"
+        android:label="@string/menu_churches"
+        tools:layout="@layout/fragment_cardview" />
+
+    <fragment
+        android:id="@+id/nav_theaters"
+        android:name="it.matteospaggiari.tourguideapp.ui.theaters.TheatersFragment"
+        android:label="@string/menu_theaters"
+        tools:layout="@layout/fragment_cardview" />
+
+    <fragment
+        android:id="@+id/nav_squares"
+        android:name="it.matteospaggiari.tourguideapp.ui.squares.SquaresFragment"
+        android:label="@string/menu_squares"
+        tools:layout="@layout/fragment_cardview" />
+
+</navigation>

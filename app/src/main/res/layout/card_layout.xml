@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    app:cardBackgroundColor="#E1F5FE"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:contentPadding="0dp"
+    style="@style/CardViewLayout">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relative_layout"
+        style="@style/CardViewLayout.Constraint">
+
+        <ImageView
+            android:id="@+id/ic_phone"
+            app:layout_constraintEnd_toStartOf="@id/ic_website"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/item_image"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:src="@drawable/ic_menu_phone"
+            style="@style/CardViewLayout.ImageView.Icon" />
+
+        <ImageView
+            android:id="@+id/ic_website"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/item_image"
+            app:layout_constraintStart_toEndOf="@id/ic_phone"
+            app:layout_constraintEnd_toStartOf="@id/ic_position"
+            android:src="@drawable/ic_menu_website"
+            style="@style/CardViewLayout.ImageView.Icon" />
+
+        <ImageView
+            android:id="@+id/ic_position"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ic_website"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/item_image"
+            android:src="@drawable/ic_menu_position"
+            style="@style/CardViewLayout.ImageView.Icon" />
+
+        <ImageView
+            android:id="@+id/item_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/ic_website"
+            app:layout_constraintBottom_toTopOf="@id/item_title"
+            tools:srcCompat="@tools:sample/backgrounds/scenic"
+            style="@style/CardViewLayout.ImageView" />
+
+        <TextView
+            android:id="@+id/item_title"
+            app:layout_constraintTop_toBottomOf="@id/item_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="@tools:sample/cities"
+            style="@style/CardViewLayout.TextViewTitle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
